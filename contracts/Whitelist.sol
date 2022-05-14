@@ -21,7 +21,7 @@ contract Whitelist {
         //check if the user has already been whitelisted
         require(!whitelistedAddresses[msg.sender], "Sender has already been whitelisted");
         //check if we have reached the max number of whitelisted addresses allowed
-        require(maxWhitelistedAddresses < maxWhitelistedAddresses, "More addresses cant be added, limit reached");
+        require(numAddressesWhitelisted < maxWhitelistedAddresses, "More addresses cant be added, limit reached");
         //add the address wich called the function to the whitelist
         whitelistedAddresses[msg.sender] = true;
         //increase the number of whitelisted addresses
