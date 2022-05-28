@@ -9,3 +9,8 @@ the Rinkeby test net.
 
 ## Test deploy
 Smart contract deployed in [Rinkeby Testnet Network](https://rinkeby.etherscan.io/address/0x8e4e5184c20bb65415234d077adeaab71a6fba7b)
+
+## Requirements
+* Whitelist access should be given to the first 10 users for free who want to get in.
+* There should be a website where people can go and enter into the whitelist.<br><br>
+### Lets start building 🚀
